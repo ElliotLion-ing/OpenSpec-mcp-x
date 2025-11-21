@@ -1,0 +1,14 @@
+{
+  "name": "openspec",
+  "version": "1.0.0",
+  "description": "OpenSpec MCP Server - AI-powered API specification generation and management",
+  "main": "src/openspec_mcp/server.py",
+  "type": "python",
+  "configuration": {
+    "command": "python",
+    "args": ["-m", "openspec_mcp.server"]
+  }
+}
+
+
+

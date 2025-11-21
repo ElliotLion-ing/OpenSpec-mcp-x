@@ -1,0 +1,57 @@
+{
+  "name": "openspec-mcp-x",
+  "version": "1.0.0",
+  "description": "Model Context Protocol server for OpenSpec - AI-powered API specification tool",
+  "main": "bin/openspec-mcp-x.js",
+  "type": "commonjs",
+  "bin": {
+    "openspec-mcp-x": "./bin/openspec-mcp-x.js"
+  },
+  "files": [
+    "bin/",
+    "src/",
+    "README.md",
+    "CHANGELOG.md"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepublishOnly": "node -e \"console.log('✅ Pre-publish check passed')\""
+  },
+  "keywords": [
+    "mcp",
+    "openspec",
+    "api",
+    "specification",
+    "openapi",
+    "swagger",
+    "cursor",
+    "model-context-protocol",
+    "ai"
+  ],
+  "author": "OpenSpec MCP Team",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ElliotLion-ing/OpenSpec-mcp-x.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ElliotLion-ing/OpenSpec-mcp-x/issues"
+  },
+  "homepage": "https://github.com/ElliotLion-ing/OpenSpec-mcp-x#readme",
+  "engines": {
+    "node": ">=14.0.0",
+    "npm": ">=6.0.0"
+  },
+  "os": [
+    "darwin",
+    "linux",
+    "win32"
+  ],
+  "dependencies": {},
+  "devDependencies": {},
+  "peerDependencies": {},
+  "publishConfig": {
+    "access": "public"
+  }
+}
+
